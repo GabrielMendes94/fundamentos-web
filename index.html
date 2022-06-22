@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <!-- <a href="https://www.google.com/" target="_blank">Google</a>  target: abre site em nova página-->
             <a href="index.html">Home</a>  
@@ -16,26 +17,51 @@
             <a href="contato.html">Contato</a>
         </li>
     </ul>
-    <h1>Sobre o Gabriel</h1>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque non facilis beatae, aut quod repellendus inventore quae qui quibusdam eaque voluptatum minus ducimus tempore incidunt voluptates. Quidem reiciendis tenetur laboriosam!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit dolores est ab eum? Hic cum molestias sunt accusantium voluptates voluptatum in, ipsa ratione, sapiente vero odit labore natus sint.
-    </p>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque non facilis beatae, aut quod repellendus inventore quae qui quibusdam eaque voluptatum minus ducimus tempore incidunt voluptates. Quidem reiciendis tenetur laboriosam!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis quasi eaque velit explicabo quae adipisci ratione beatae reprehenderit possimus, assumenda sapiente perspiciatis voluptates minus omnis, at, dolor et. Mollitia, quam.
-    </p>
+    <h1 class="center">Sobre o Gabriel</h1>
+    <div class="container">
+        <div>
+            <img class="br-50 wh-300 p-30" src="assets/img/Recife.jpg" alt="Foto da cidade do Recife">
+        </div>
 
-    <img src="assets/img/Recife.jpg" alt="Foto da cidade do Recife">
+        <div class="p-30">
+            <p class="justify">     <!-- <p style="font-size: 30px;> coloca alteração da fonte inline" -->
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque non facilis beatae, aut quod repellendus inventore quae qui quibusdam eaque voluptatum minus ducimus tempore incidunt voluptates. Quidem reiciendis tenetur laboriosam!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit dolores est ab eum? Hic cum molestias sunt accusantium voluptates voluptatum in, ipsa ratione, sapiente vero odit labore natus sint.
+            </p>
+            <p class="justify">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque non facilis beatae, aut quod repellendus inventore quae qui quibusdam eaque voluptatum minus ducimus tempore incidunt voluptates. Quidem reiciendis tenetur laboriosam!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis quasi eaque velit explicabo quae adipisci ratione beatae reprehenderit possimus, assumenda sapiente perspiciatis voluptates minus omnis, at, dolor et. Mollitia, quam.
+            </p>
+        </div>
+        
+        
+    </div>
+    
 
-    <h2>Um vídeo sobre autodisciplina: </h2>
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/0dtl-p6oKe0" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen></iframe>
+    <h2 class="center">Um vídeo sobre autodisciplina: </h2>
+    <div class="container mb-50">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/0dtl-p6oKe0" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.facebook.com/" target="_blank"><img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook"></a>
+            
+            <a href="https://www.linkedin.com/in/gmendeslopes/" target="_blank"><img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin"></a>
+            
+            <a href="https://www.instagram.com/" target="_blank"><img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Instagram"></a>
+        </div>
+        <p class="center">
+            Todos os direitos reservados: Gabriel Mendes &copy
+        </p>
+    </footer>
+    
 </body>
 </html>
